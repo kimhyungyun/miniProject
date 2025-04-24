@@ -1,58 +1,56 @@
 @font-face {
-    font-family: 'GongGothicMedium';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "GongGothicMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 * {
-    font-family: "GongGothicMedium";
-  }
-
-header{
- 
-    height: 90px;
-    width: 100%;
-
-    display: flex;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-
-
-    border: 1px solid gray;
-
-
+  font-family: "GongGothicMedium";
+}
+.textItem {
+  list-style: none;
 }
 
-header .header{
-    max-width: 1600px;
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 40px;
-    margin-top: 15px;
+header {
+  height: 90px;
+  width: 100%;
+
+  display: flex;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border: 1px solid gray;
 }
 
-header > .header > .headertitle{
-    font-size: 50px;
-    text-shadow: 2px 2px 8px gray;
-    color: #651249;
-
-}
-header > .header > ul{
-    display: flex;
-    flex-direction: row;
-
+header .header {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  margin-top: 15px;
 }
 
-header > .header > ul >li{
-    padding: 12px 20px;
-    font-size: 20px;
+header > .header > .headertitle {
+  font-size: 50px;
+  text-shadow: 2px 2px 8px gray;
+  color: #651249;
 }
-header > .header > ul > li:hover{
-    padding: 0px 10px;
-    transition: all 1s;
+header > .header > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header > .header > ul > li {
+  padding: 12px 20px;
+  font-size: 20px;
+}
+header > .header > ul > li:hover {
+  padding: 0px 10px;
+  transition: all 1s;
 }
