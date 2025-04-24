@@ -10,10 +10,12 @@
 }
 .textItem {
   list-style: none;
+  color: cornsilk;
+  gap: 20px;
 }
 
 header {
-  height: 90px;
+  height: 100px;
   width: 100%;
 
   display: flex;
@@ -24,6 +26,7 @@ header {
   right: 0;
 
   border: 1px solid gray;
+  background-color: rgba(128, 128, 128, 0.7);
 }
 
 header .header {
@@ -39,7 +42,7 @@ header .header {
 header > .header > .headertitle {
   font-size: 50px;
   text-shadow: 2px 2px 8px gray;
-  color: #651249;
+  color: cornsilk;
 }
 header > .header > ul {
   display: flex;
