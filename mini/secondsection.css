@@ -1,0 +1,50 @@
+.secondblock{
+
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    object-fit: cover;
+    background-image: url("야경1.jpg");
+    background-size: cover;
+    padding-top: 100px;
+
+
+}
+
+.secondblock > .font{
+
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    text-align: center;
+    padding: 500px 150px;
+    text-shadow: 4px 4px 10px white;
+    color: #272962;
+    line-height: 130px;
+    max-width: 1600px;
+
+    
+}
+.secondblock > ul{
+    overflow: hidden;
+    object-fit: cover;
+    transition: all 0.8s linear;
+    color: gainsboro;
+
+}
+.secondblock > ul > li:hover{
+    transform: scale(0.9);
+}
+
+.secondblock > ul > li > img{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.secondblock > ul > li > p {
+    text-align: center;
+
+}
